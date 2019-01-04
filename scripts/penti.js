@@ -51,32 +51,32 @@ function Penti () {
 
   function specs (chord, leftHanded = true) {
     if (chord === '---- #') { return ' ' }
-    if (chord === '--#- #') { return 'A' }
+    if (chord === '-#-- #') { return 'A' }
     if (chord === '-##- #') { return 'B' }
-    if (chord === '#-#- -') { return 'C' }
-    if (chord === '---# #') { return 'D' }
-    if (chord === '-#-- -') { return 'E' }
-    if (chord === '#--- #') { return 'F' }
-    if (chord === '--## -') { return 'G' }
+    if (chord === '-#-# -') { return 'C' }
+    if (chord === '#--- #') { return 'D' }
+    if (chord === '--#- -') { return 'E' }
+    if (chord === '---# #') { return 'F' }
+    if (chord === '##-- -') { return 'G' }
     if (chord === '#--# #') { return 'H' }
-    if (chord === '--#- -') { return 'I' }
+    if (chord === '-#-- -') { return 'I' }
     if (chord === '#--# -') { return 'J' }
     if (chord === '#### -') { return 'K' }
-    if (chord === '##-- -') { return 'L' }
-    if (chord === '-### -') { return 'M' }
-    if (chord === '---# -') { return 'N' }
+    if (chord === '--## -') { return 'L' }
+    if (chord === '###- -') { return 'M' }
+    if (chord === '#--- -') { return 'N' }
     if (chord === '-##- -') { return 'O' }
-    if (chord === '###- #') { return 'P' }
-    if (chord === '#-#- #') { return 'Q' }
-    if (chord === '-#-- #') { return 'R' }
-    if (chord === '#--- -') { return 'S' }
-    if (chord === '-### #') { return 'T' }
-    if (chord === '###- -') { return 'U' }
-    if (chord === '#-## -') { return 'V' }
+    if (chord === '-### #') { return 'P' }
+    if (chord === '-#-# #') { return 'Q' }
+    if (chord === '--#- #') { return 'R' }
+    if (chord === '---# -') { return 'S' }
+    if (chord === '###- #') { return 'T' }
+    if (chord === '-### -') { return 'U' }
+    if (chord === '##-# -') { return 'V' }
     if (chord === '#### #') { return 'W' }
-    if (chord === '#-## #') { return 'X' }
-    if (chord === '--## #') { return 'Y' }
-    if (chord === '##-- #') { return 'Z' }
+    if (chord === '##-# #') { return 'X' }
+    if (chord === '##-- #') { return 'Y' }
+    if (chord === '--## #') { return 'Z' }
   }
 
   function key (k) {
