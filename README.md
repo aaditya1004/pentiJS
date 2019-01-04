@@ -1,5 +1,30 @@
 # pentiJS
 
+Use the number keys `1`, `2`, `3`, `4` and `any` other key to simulate the hand, only left hand mode is supported at the moment.
+
+## Implemented 
+
+```
+---- #    |   SPACE   |
+--#- #    |   A       |   ---# -    |   N
+-##- #    |   B       |   -##- -    |   O 
+#-#- -    |   C       |   ###- #    |   P 
+---# #    |   D       |   #-#- #    |   Q
+-#-- -    |   E       |   -#-- #    |   R 
+#--- #    |   F       |   #--- -    |   S 
+--## -    |   G       |   -### #    |   T 
+#--# #    |   H       |   ###- -    |   U 
+--#- -    |   I       |   #-## -    |   V 
+#--# -    |   J       |   #### #    |   W 
+#### -    |   K       |   #-## #    |   X 
+##-- -    |   L       |   --## #    |   Y 
+-### -    |   M       |   ##-- #    |   Z 
+```
+
+## Full Specs
+
+As per [this](https://software-lab.de/penti.html).
+
 ```
 Penti Chorded Keyboard
 
