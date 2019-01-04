@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="scripts/penti.js"></script>
+  <title>PentiJS</title>
+</head>
+<body>
+  <div id='preview'>
+:    
+  </div>
+  <div id='hand'></div>
+  <pre>
+Use the number keys 1, 2, 3, 4 and 
+any other key to simulate the hand.
+
+---- #    |   SPACE   |
+--#- #    |   A       |   ---# -    |   N
+-##- #    |   B       |   -##- -    |   O 
+#-#- -    |   C       |   ###- #    |   P 
+---# #    |   D       |   #-#- #    |   Q
+-#-- -    |   E       |   -#-- #    |   R 
+#--- #    |   F       |   #--- -    |   S 
+--## -    |   G       |   -### #    |   T 
+#--# #    |   H       |   ###- -    |   U 
+--#- -    |   I       |   #-## -    |   V 
+#--# -    |   J       |   #### #    |   W 
+#### -    |   K       |   #-## #    |   X 
+##-- -    |   L       |   --## #    |   Y 
+-### -    |   M       |   ##-- #    |   Z 
+
+  </pre>
+  <script>
+    const penti = new Penti()
+    penti.start()
+  </script>
+  <style>
+    body { padding:30px; font-family: courier; font-size:14px;}
+  </style>
+</body>
+</html>
