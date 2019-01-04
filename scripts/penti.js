@@ -23,16 +23,18 @@ function Penti () {
   this.keydown = function (e) {
     const index = key(e.key)
     chord = chord.substr(0, index) + '#' + chord.substr(index + 1)
-  }
 
-  this.keyup = function (e) {
     if (this.release !== null) { return }
-    if (e.key === 'Backspace') { this.erase(); e.preventDefault(); return }
+
     this.release = setTimeout(() => {
       this.input(specs(chord))
       this.release = null
       this.clear()
     }, 50)
+  }
+
+  this.keyup = function (e) {
+    if (e.key === 'Backspace') { this.erase(); e.preventDefault() }
   }
 
   this.input = function (val) {
